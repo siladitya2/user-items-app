@@ -126,5 +126,5 @@ Build and start the frontend service on http://localhost:3000 (proxied to backen
 Press CTRL+C to stop and tear down the containers.
 
 ## Future Enhancements
-a. Support for Pagination
-b. Authentication and Authorization
+1. Support for Pagination.
+2. Authentication and Authorization
