@@ -64,13 +64,14 @@ curl "http://localhost:8080/api/v1/items?filter=A"
 *  `POST /api/v1/item`
 
 * Adds a new item. Accepts a JSON body with a name property.
+
 **Example:**
-  ```bash
-curl -X POST http://localhost:8080/api/v1/item \
+  
+```bash
+  curl -X POST http://localhost:8080/api/v1/item \
      -H "Content-Type: application/json" \
      -d '{"name":"Grape"}'
-     ```
-
+```
 Returns the created item.
 
 ### 3. Frontend – React TypeScript
