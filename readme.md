@@ -1,0 +1,110 @@
+## user-items-app
+
+A simple full-stack application demonstrating a filterable list of items. The backend is built with Java Spring Boot, and the frontend is a React TypeScript app.
+
+## Features
+
+* **Filterable List**: Display a list of items that can be searched in real time.
+* **Server-side Filtering**: Backend endpoint accepts a `search` query parameter and returns matching items.
+* **Modern Tech Stack**: Java, Spring Boot, React, TypeScript.
+
+## Tech Stack
+
+* **Backend**: Java, Spring Boot, REST API
+* **Frontend**: React, TypeScript, Fetch API
+* **Build Tools**: Gradle (Backend), npm/Yarn (Frontend)
+
+## Prerequisites
+
+* **Java 11+**
+* **Gradle** (optional, wrapper included)
+* **Node.js 16+** and **npm** or **Yarn**
+* **Git**
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone git@github.com:siladity2/user-items-app.git
+cd user-items-app
+```
+
+### 2. Backend – Spring Boot
+
+1. Navigate to the backend directory:
+
+   ```bash
+   cd user-items-service
+   ```
+2. Build and run the Spring Boot application:
+
+   ```bash
+   ./gradlew bootRun
+   ```
+3. The API will start on `http://localhost:8080`.
+
+#### Backend Endpoints
+
+* `GET /api/v1/items`
+
+    * Returns all items.
+* `GET /api/v1/items?filter={term}`
+
+    * Returns items whose `name` contains `{term}` (case-insensitive).
+
+**Example:**
+
+```bash
+curl "http://localhost:8080/api/v1/items?filter=A"
+```
+
+### 3. Frontend – React TypeScript
+
+1. Navigate to the frontend directory:
+
+   ```bash
+   cd user-items-ui
+   ```
+2. Install dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Start the development server:
+
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+4. Open your browser at `http://localhost:3000`.
+
+## Usage
+
+1. Start backend and frontend as described above.
+2. In the browser, type a search term into the input field to filter the list of items.
+3. Clear the input to return to the full list.
+
+
+## Docker Compose
+
+I provided a docker-compose.yml to build and run both backend and frontend together.
+
+### Usage
+
+From the project root, run:
+
+   ```bash
+docker-compose up --build
+   ```
+
+This will:
+
+Build and start the backend service on http://localhost:8080
+
+Build and start the frontend service on http://localhost:3000 (proxied to backend via container network)
+
+Press CTRL+C to stop and tear down the containers.
