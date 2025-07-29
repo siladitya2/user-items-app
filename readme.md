@@ -28,7 +28,7 @@ A simple full-stack application demonstrating a filterable list of items. The ba
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:siladity2/user-items-app.git
+git clone git@github.com:siladitya2/user-items-app.git
 cd user-items-app
 ```
 
