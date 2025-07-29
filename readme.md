@@ -1,15 +1,14 @@
 ## User-items-app
 
-A simple full-stack application demonstrating a filterable list of items. The backend is built with Java Spring Boot, and the frontend is a React Javascript app.
+A simple full-stack application demonstrating a filterable list of items. The backend is built with Java Spring Boot, and the frontend is a React JavaScript app.
 
 ## Features
 
-* **Filterable List**: Display a list of items that can be filter in real time.
+* **Filterable List**: Display a list of items that can be filtered in real time.
 * **Server-side Filtering**: Backend endpoint accepts a `filter` query parameter and returns matching items.
 * **Testing** Unit test cases for frontend, unit, and integration test cases for backend.
-* **Modern Tech Stack**: Java, Spring Boot, React JS, Docker.
 
-* Note: I have hard-coded some items data in the backend using DataLoader.java. I have also provided an API (details below) to add item data on the backend.
+* **Note**: I have hard-coded some item data in the backend using DataLoader.java. I have also provided an API (details below) to add item data on the backend.
 ## Tech Stack
 
 * **Backend**: Java, Spring Boot, REST API
