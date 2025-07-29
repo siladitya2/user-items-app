@@ -6,13 +6,14 @@ A simple full-stack application demonstrating a filterable list of items. The ba
 
 * **Filterable List**: Display a list of items that can be searched in real time.
 * **Server-side Filtering**: Backend endpoint accepts a `search` query parameter and returns matching items.
-* **Modern Tech Stack**: Java, Spring Boot, React, TypeScript.
+* **Modern Tech Stack**: Java, Spring Boot, React JS.
 
 ## Tech Stack
 
 * **Backend**: Java, Spring Boot, REST API
-* **Frontend**: React, TypeScript, Fetch API
+* **Frontend**: React, Javascript
 * **Build Tools**: Gradle (Backend), npm/Yarn (Frontend)
+* **Containeraization** Docker
 
 ## Prerequisites
 
@@ -20,7 +21,7 @@ A simple full-stack application demonstrating a filterable list of items. The ba
 * **Gradle** (optional, wrapper included)
 * **Node.js 16+** and **npm** or **Yarn**
 * **Git**
-* Docker
+* **Docker**
 
 ## Getting Started
 
