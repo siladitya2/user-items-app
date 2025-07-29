@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: user-items-backend
     ports:
-      - "8080:8080"
+      - "${BACKEND_PORT:-8080}:8080"
     volumes:
       - ./user-items-service/src:/app/src
       - ./user-items-service/build.gradle:/app/build.gradle
