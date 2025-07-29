@@ -7,7 +7,7 @@ A simple full-stack application demonstrating a filterable list of items. The ba
 * **Filterable List**: Display a list of items that can be filter in real time.
 * **Server-side Filtering**: Backend endpoint accepts a `filter` query parameter and returns matching items.
 * **Testing** Unit test cases for frontend, unit, and integration test cases for backend.
-* **Modern Tech Stack**: Java, Spring Boot, React JS.
+* **Modern Tech Stack**: Java, Spring Boot, React JS, Docker.
 
 ## Tech Stack
 
