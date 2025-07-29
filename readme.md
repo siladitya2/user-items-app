@@ -128,3 +128,4 @@ Press CTRL+C to stop and tear down the containers.
 ## Future Enhancements
 1. Support for Pagination.
 2. Authentication and Authorization
+3. Remove hard-coded server configurations(ex: port=8080, port=3000) and configure through properties file or environment variable
