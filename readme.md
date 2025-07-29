@@ -1,4 +1,4 @@
-## user-items-app
+## User-items-app
 
 A simple full-stack application demonstrating a filterable list of items. The backend is built with Java Spring Boot, and the frontend is a React TypeScript app.
 
