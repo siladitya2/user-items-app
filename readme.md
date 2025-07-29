@@ -20,6 +20,7 @@ A simple full-stack application demonstrating a filterable list of items. The ba
 * **Gradle** (optional, wrapper included)
 * **Node.js 16+** and **npm** or **Yarn**
 * **Git**
+* Docker
 
 ## Getting Started
 
