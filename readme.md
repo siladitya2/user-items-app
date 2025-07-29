@@ -1,6 +1,8 @@
 ## User-items-app
 
 A simple full-stack application demonstrating a filterable list of items. The backend is built with Java Spring Boot, and the frontend is a React JavaScript app.
+The UI component should render an input field that allows the user to enter a search term. As the user types, the component should filter the list of items and display only those
+whose name property includes the search term. If the user clears the search input, the component should display all the items.
 
 ## Features
 
