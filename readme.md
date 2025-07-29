@@ -9,6 +9,7 @@ A simple full-stack application demonstrating a filterable list of items. The ba
 * **Testing** Unit test cases for frontend, unit, and integration test cases for backend.
 * **Modern Tech Stack**: Java, Spring Boot, React JS, Docker.
 
+* Note: I have hard-coded some items data in the backend using DataLoader.java. I have also provided an API (details below) to add item data on the backend.
 ## Tech Stack
 
 * **Backend**: Java, Spring Boot, REST API
